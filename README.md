@@ -6,8 +6,8 @@ Nylas Composer Component in Vue 3 + vite project
 
 * Clone this repository
 * Create a .env file at the root of the project (see below)
-* Run pnpm install
-* Run pnpm dev
+* Run `pnpm install`
+* Run `pnpm dev`
 
 ### Env file
 
