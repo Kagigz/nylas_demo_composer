@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+
+/**********
+   COLORS 
+**********/
+
+
+// VIOLET
+$violet-regular: #6C50B3;
+$violet-light1: #A897D2;
+$violet-light2: #EAE6F4;
+$violet-dark1: #492FA0;
+$violet-dark2: #2F228F;
+
+// BLUE
+$blue-regular: #84E1F3;
+$blue-light: #E1F8FC;
+$blue-dark1: #32CAE6;
+$blue-dark2: #1CB1CD;
+$blue-dark3: #0F8192;
+
+// ORANGE
+$orange-regular: #EE785B;
+$orange-light1: #F3AE9D;
+$orange-light2: #F6EAE9;
+$orange-dark1: #D45739;
+$orange-dark2: #AD452D;
+
+// RED
+$red-regular: #E75C68;
+$red-light1: #F18C92;
+$red-light2: #FFE8ED;
+$red-dark1: #E40027;
+$red-dark2: #B5000E;
+
+// OTHER
+$white: #ffffff;
+$ghost-white: #f5f7fd;
+$light-grey: #f5f5f5;
+$medium-grey: #dfdfdf;
+$dark-grey: #7a7a79;
+$grey-300: #E0E0E0;
+$grey-500: #9D9D9D;
+$grey-600: #757575;
+$black: #28282a;
+
+// THEME
+
+$primary: $violet-regular;
+$secondary: $blue-regular;
+$contrast1: $red-regular;
+$contrast2: $orange-regular;
+
+$light-bg: $ghost-white;
+$dark-bg: $dark-grey;
+$light-border: $light-grey;
+$dark-border: $medium-grey;
+
+$border-radius: 4px;
+
+/**********
+   FONTS 
+**********/
+
+$body-font: 'Noto Sans JP';
+$title-font: 'Barlow';

@@ -1,0 +1,10 @@
+.DS_Store
+.vite-ssg-dist
+.vite-ssg-temp
+.firebase/
+*.local
+dist
+dist-ssr
+node_modules
+firebase-debug.log
+.env

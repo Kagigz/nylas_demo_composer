@@ -1,0 +1,90 @@
+@import './markdown.css';
+@import './theme.scss';
+
+html,
+body,
+#app {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+html.dark {
+  background: #121212;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.alignRight{
+  text-align: right;
+}
+
+.lightColored{
+  color: #757575;
+}
+
+.primaryColored{
+  color: $primary;
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  @apply bg-teal-600;
+  @apply opacity-75;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+
+.btn {
+  @apply px-4 py-1 rounded inline-block
+    bg-teal-600 text-white cursor-pointer
+    hover:bg-teal-700
+    disabled:cursor-default disabled:bg-gray-600 disabled:opacity-50;
+}
+
+.icon-btn {
+  @apply inline-block cursor-pointer select-none 
+    opacity-75 transition duration-200 ease-in-out 
+    hover:opacity-100 hover:text-teal-600;
+  font-size: 0.9em;
+}
+
+.tripanelElement{
+  height: 78vh;
+  overflow-y: scroll;
+  border: 1px solid $light-border;
+}
+
+
+
+/* THEME */
+
+.elevation{
+  box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 6px 16px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12);
+}
+
+.ant-btn-primary{
+  background-color: $primary;
+  border-color: $primary;
+}
+
+/* COMPONENTS */
+
+.listComponent{
+  margin-top: 48px;
+}
+
+
+
